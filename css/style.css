@@ -1,2 +1,22 @@
+/* Navigation */
+.navigation {
+  padding: 15px 50px;
+  background-color: black;
+  color: #fff;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.navigation ul {
+  padding: 0;
+  margin: none;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.navigation li:first-of-type {
+  margin-right: 500px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxlQUFBO0FBQ0E7RUFDSSxrQkFBa0I7RUFDbEIsdUJBQXVCO0VBQ3ZCLFdBQVc7QUNDZjs7QURKQTtFQUtRLFVBQVU7RUFDVixZQUFZO0VBQ1oscUJBQXFCO0FDRzdCOztBRFZBO0VBVVEscUJBQXFCO0VBQ3JCLGlCQUFpQjtBQ0l6Qjs7QURmQTtFQWNRLG1CQUFtQjtBQ0szQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

@@ -1,0 +1,18 @@
+/* Navigation */
+.navigation {
+    padding: 15px 50px;
+    background-color: black;
+    color: #fff;
+    ul {
+        padding: 0;
+        margin: none;
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    li:first-of-type {
+        margin-right: 500px;
+    }
+} 
