@@ -83,3 +83,31 @@ section {
         font-size: 60px; 
     }
 }
+
+/* Services */
+
+.Services {
+    padding: 100px 50px; 
+    h3 {
+        font-family: $font-text;
+        font-size: 40px;
+    }
+    h4 {
+        font-family: $font-text;
+    }
+    h5 {
+        font-family: $font-header;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .icon {
+        border: 2px solid;
+        border-radius: 50%;
+        color: $color-three;
+        border-color: $color-three;
+        padding: 10px;
+    }
+    .list-group {
+        padding-right: 25px;
+    }
+}
