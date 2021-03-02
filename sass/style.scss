@@ -1,3 +1,10 @@
+/* Variables */
+$font-header: 'Noto Serif', serif;
+$font-text: 'Open Sans', sans-serif;
+$color-one: black;
+$color-two: #fff;
+$color-three: darkgoldenrod;
+
 /* Global */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -6,7 +13,7 @@
 body {
     margin: 0;
     text-align: center;
-    background: #fff;
+    background: $color-two;
 }
 
 .container {
@@ -18,10 +25,23 @@ section {
     padding: 120px 0 0 120px;
 }
 
+.btn {
+    
+    min-width: 200px;
+    height: 60px;
+    padding-top: 20px;
+    font-family: $font-text;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: $color-light;
+    color: $color-two;
+}
+
 /* Splash */
 .navigation {
     padding: 15px 50px;
-    color: #fff;
+    color: $color-two;
     ul {
         padding: 0;
         margin: none;
@@ -29,10 +49,14 @@ section {
     }
     li {
         display: inline-block;
-        margin-left: 15px;
+        margin-left: 25px;
+        font-family: $font-text;
     }
     li:first-of-type {
+        font-family: 'Parisienne', cursive;
         margin-right: 500px;
+        color: $color-three;
+        font-size: 30px;
     }
 } 
 
@@ -41,13 +65,22 @@ section {
     height: 100vh;
     background-position: center center;
     background-size: cover;
-    background-image: url('https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-image: url('https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     position: relative;
 }
 .splash-inner {
-    color: #fff;
+    color: $color-two;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    h2 {
+       font-family: $font-header;
+       font-size: 30px; 
+       letter-spacing: 0.2em;
+    }
+    h1 {
+        font-family: $font-text;
+        font-size: 60px;
+    }
 }
