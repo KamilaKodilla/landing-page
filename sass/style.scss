@@ -112,6 +112,30 @@ section {
     }
 }
 
+/* Our portfolio */
+
+.portfolio {
+    background-color: $color-one;
+    opacity: 0.3;
+    margin: 0;
+    padding: 0;
+
+}
+.portfolio .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 80px;
+}
+.portfolio-content {
+    flex: 1;
+    img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
 /* Footer */
 
 .icon-footer {
