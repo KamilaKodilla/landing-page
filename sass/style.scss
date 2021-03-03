@@ -103,9 +103,44 @@ section {
         color: $color-three;
         border-color: $color-three;
         padding: 10px 10px;
+        width: 60px;
+        height: 60px;
     }
     .row {
         padding: 40px;
-       font-family: $font-text;
+        font-family: $font-text;
+    }
+}
+
+/* Footer */
+
+.icon-footer {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+.footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0;
+    li {
+        display: inline-block;
+    }
+    .text {
+        margin-right: 60px;
+    }
+    .icons {
+        border-radius: 50%; 
+        background: $color-one;
+        color: $color-two;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+        padding: 12px;
+        i {
+            color: $color-two;
+        }
     }
 }
