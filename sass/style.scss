@@ -128,7 +128,7 @@ section {
         display: inline-block;
     }
     .text {
-        margin-right: 60px;
+        margin-right: 80px;
     }
     .icons {
         border-radius: 50%; 
@@ -139,6 +139,7 @@ section {
         text-align: center;
         font-size: 15px;
         padding: 12px;
+        margin-right: 8px;
         i {
             color: $color-two;
         }
