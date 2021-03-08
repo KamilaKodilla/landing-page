@@ -40,7 +40,6 @@ section {
 /* Splash */
 .navigation {
     padding: 15px 50px;
-    color: $color-two;
     ul {
         padding: 0;
         margin: none;
@@ -50,12 +49,19 @@ section {
         display: inline-block;
         margin-left: 25px;
         font-family: $font-text;
-    }
+    }    
     li:first-of-type {
-        font-family: 'Parisienne', cursive;
-        margin-right: 500px;
+            font-family: 'Parisienne', cursive;
+            margin-right: 500px;
+            font-size: 30px;
+            color: $color-three;
+    }
+    a {
+        text-decoration: none;
+        color: $color-two;
+    }
+    a:first-of-type {
         color: $color-three;
-        font-size: 30px;
     }
 } 
 
@@ -132,9 +138,6 @@ section {
 .Portfolio .row {
     margin: 30px 0 0 0;
     padding: 0;
-    :second-of-type {
-        margin-top: 30px;
-    }
 }
 .col {
     display: flex;
@@ -204,5 +207,33 @@ section {
     }
         i {
             color: $color-two;
+    }
+}
+
+@media (max-width: 767px) {
+.navigation {
+    padding: 15px 0;
+        li {
+            margin-left: 0;
+        }
+        li:first-of-type {
+            margin-right: 0;
+        }
+    }
+    .col {
+        flex-direction: column;
+    }
+    .btn-one {
+        width: 259px;
+    }
+
+    .footer .text {
+        margin-right: 10px;
+    }
+    .footer .icons {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        padding: 9px;
     }
 }
