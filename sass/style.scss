@@ -40,6 +40,13 @@ section {
 /* Splash */
 .navigation {
     padding: 15px 50px;
+    display: inline-block;
+    .logo {
+        font-family: 'Parisienne', cursive;
+        padding-right: 500px;
+        font-size: 30px;
+        color: $color-three;
+    }
     ul {
         padding: 0;
         margin: none;
@@ -50,18 +57,9 @@ section {
         margin-left: 25px;
         font-family: $font-text;
     }    
-    li:first-of-type {
-            font-family: 'Parisienne', cursive;
-            margin-right: 500px;
-            font-size: 30px;
-            color: $color-three;
-    }
     a {
         text-decoration: none;
         color: $color-two;
-    }
-    a:first-of-type {
-        color: $color-three;
     }
 } 
 
@@ -153,8 +151,7 @@ section {
     }
 }
 .link {
-    width: 250px;
-    position: relative;
+    width: 100%;
     padding: 0;
     text-align: left;
     margin-top: -5px;
@@ -164,10 +161,10 @@ section {
     color: $color-one;
     font-family: $font-text;
     font-weight: bold;
-    width: 345px;
+    width: 100%;
     margin: 0;
     padding-top: 10px;
-    position: absolute;
+    display: block;
     span {
         font-family: $font-header;
         font-size: 10px;
